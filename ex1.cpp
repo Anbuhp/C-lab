@@ -12,19 +12,19 @@ long volume(long,int,int);
 double one::volume(int r)
 {
 sphvol=3.14*r*r*r;
-cout<<"volume of cube:\t"<<sphvol;
+cout<<"volume of cube:\t"<<sphvol<<endl;
 return 0;
 }
-double one::volume(float r,int h):
+double one::volume(float r,int h)
 {
 cylvol=3.14*r*r*h;
-cout<<"\h volume of cylinder:\t"<<cylvol;
+cout<<"volume of cylinder:\t"<<cylvol<<endl;
 return 0;
 }
 long one::volume(long l,int b,int h)
 {
 recvol=l*b*h;
-cout<<"\h volume of rectangle:\t"<<recvol;
+cout<<"volume of rectangle:\t"<<recvol;
 return 0;
 }
 void main()
